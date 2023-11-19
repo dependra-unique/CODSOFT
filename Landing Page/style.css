@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.navbar {
+    width: 100%;
+    height: 10%;
+    background-color: rgba(128, 128, 128, 0.5);
+    box-shadow: 0 0 10px grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navbar .nav-icon{
+    font-size: 50px;
+    padding: 0 10%;
+    width: 20%;
+    
+}
+
+.navbar .navbar-link {
+    font-size: 25px;
+    width: 60%;
+    padding-left: 15%;
+   
+
+}
+
+.navbar .navbar-link a {
+    text-decoration: none;
+    padding-right: 60px;
+    color: #000;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+
+.navbar .navbar-link a:hover {
+    /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); */
+    font-size: x-large;
+    color: red;
+}
+
+.navbar .navbar-link a:active {
+    color: green;
+}
+
+
+.navbar .srch-icon {
+    width: 20%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.navbar .srch-icon i{
+    font-size: 22px;
+    cursor: pointer;
+    border: 0.2px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .5s ease;
+    
+}
+
+.navbar .srch-icon i:hover{
+    
+    box-shadow: 0 0 15px lightgray;
+    color: #fff;
+    padding: 4.5px;
+}
+
+.navbar .srch-icon i:active {
+    color: yellowgreen;
+}
+
+
+
+
+
+
+
+
+.main {
+    width: 100%;
+    height: calc(100% - 10%);
+   
+}
+
+
+.top {
+    width: 100%;
+    height: 50%;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-position: 50% 62%;
+
+}
+
+.top .inner-div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.top .inner-div .text {
+    position: absolute;
+    width: 100%;
+    bottom: 60%;
+    padding: 0 10vw;
+    /* background-color: red; */
+    color: #fff;
+
+}
+
+
+.text h1 {
+    
+    font-size: 6vw;
+}
+
+.text span {
+    color: rgba(255, 0, 0, 0.745);
+}
+
+/* services css */
+.services {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.services h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.services span {
+    color: red;
+    padding: 0 10px;
+    letter-spacing: 1px;
+
+}
+
+
+.buttom {
+    width: 100%;
+    height: calc(100% - 50%);
+    /* background-color: yellowgreen; */
+    display: flex;
+}
+
+.bone {
+    width: 25%;
+    height: 100%;
+    /* background-color: blanchedalmond; */
+    margin: 0 2.5% 0 10%;
+    display: flex;
+    flex-direction: column;
+   border: 1px solid grey;
+    transition: .5s  ease;
+    
+}
+
+.bone:hover {
+    box-shadow: -5px -7px 40px rgba(128, 128, 128, 0.7);
+   
+}
+
+.bone .apple1-img {
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid #000; */
+    background-image: url("apple1.jpg");
+    background-size: cover;
+    background-position: 10% 50%;
+}
+
+.bone .apple-info {
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid #000; */
+    overflow: auto;
+}
+
+.bone .apple-info h1 {
+    font-size: x-large;
+    padding: 10px;
+}
+
+.bone .apple-info p {
+    padding: 5px 7px;
+}
+
+.bone .apple-info span {
+    font-size: small;
+    text-decoration: line-through;
+}
+
+
+.bone .apple1-img img {
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+
+
+.btwo {
+    width: 25%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    transition: .5s ease;
+}
+
+.btwo:hover {
+    box-shadow: -5px -7px 40px rgba(128, 128, 128, 0.7);
+}
+
+.btwo .apple1-img {
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid #000; */
+    background-image: url("apple4.jpg");
+    background-size: cover;
+    background-position: 10% 50%;
+}
+
+.btwo .apple-info {
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid #000; */
+    overflow: auto;
+}
+
+
+.btwo .apple-info h1 {
+    font-size: x-large;
+    padding: 10px;
+}
+
+.btwo .apple-info p {
+    padding: 5px 7px;
+}
+.btwo .apple-info span {
+    font-size: small;
+    text-decoration: line-through;
+}
+
+.btwo .apple1-img img {
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+
+.bthree {
+    width: 25%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    margin: 0 10% 0 2.5%;
+    display: flex;
+    flex-direction: column;
+    border:1px solid grey;
+    transition: .5s ease;
+}
+
+.bthree:hover {
+    box-shadow: -5px -7px 40px rgba(128, 128, 128, 0.614);
+}
+
+.bthree .apple1-img {
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid #000; */
+    background-image: url("apple3.jpg");
+    background-size: cover;
+    background-position: 10% 50%;
+}
+
+.bthree .apple-info {
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid #000; */
+    overflow: auto;
+}
+
+.bthree .apple-info h1 {
+    font-size: x-large;
+    padding: 10px;
+}
+
+.bthree .apple-info p {
+    padding: 5px 7px;
+}
+.bthree .apple-info span {
+    font-size: small;
+    text-decoration: line-through;
+}
+
+
+.bthree .apple1-img img {
+    width: 100%;
+    height: 50%;
+}
+
+
+button {
+    width: 40%;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: large;
+    margin: 20px 0 20px 100px;
+    border-radius: 7px;
+    border: 1px solod grey;
+    transition: .5s ease;
+}
+
+button:hover {
+    background-color: #fff;
+    color: red;
+    box-shadow: 0 0 10px red;
+}
+/* .bfour {
+    width: 25%;
+    height: 100%;
+    background-color: green;
+} */
